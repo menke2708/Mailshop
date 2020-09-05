@@ -1,0 +1,119 @@
+﻿<div class="slide_content_header">
+    <div class="slide_content_header_text" style="">contact</div>
+    <div style="height: 45px; margin-top: 2px; margin-left: 10px;" class="vertical_seperator"></div>
+</div>
+<div class="slide_content_paragraph" style="margin-top:0; flex-direction: row;">
+    <div id="contact_left">
+        <div id="contact_details">
+            <div style="display:flex;flex-direction:row;align-content:space-between;">
+                <div>
+                    <img src="images/icons/icon_ou nous trouver.png" />
+                </div>
+                <div>
+                    <a class="link_content" href="https://www.google.com/maps/place/Mailshop+S%C3%A0rl/@49.5031979,5.9856768,15z/data=!4m5!3m4!1s0x0:0x9ac7b0c5d3a6c8e8!8m2!3d49.5031979!4d5.9856768">
+                        <span>
+                            11, rue Léon Metz<br />
+                            L-4238 Esch-sur-Alzette<br />
+                            Luxembourg
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div style="display:flex;flex-direction:row;">
+                <div>
+                    <img src="images/icons/icon_contact.png" />
+                </div>
+                <div style="margin-top:14px;">
+                    <div>
+                        (+352) 24 55 92 74
+                    </div>
+                    <div>
+                        <a class="link_content" href="mailto:info@mailshop.lu">info@mailshop.lu</a>
+                    </div>
+                </div>
+            </div>
+            <div style="display:flex;flex-direction:row;">
+                <div>
+                    <img src="images/icons/icon_contact.png" />
+                </div>
+                <div>
+                    <div>
+                        Heures d'ouvertures
+                    </div>
+                    <div>
+                        Lundi au Vendredi
+                    </div>
+                    <div>
+                        8h00 - 19h00
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact_map">
+            <img src="images/icons/Plan_mailshop.png" style="height: 500px;width: 770px;" />
+        </div>
+        <div id="contact_social">
+            <div style="display:flex;flex-direction:row;">
+                Restons connectés
+                <div style="margin:-30px 0px 0px 10px;">
+                    <a href="https://www.facebook.com/MAILSHOP.lu"><img src="images/icons/icon_facebook.png" /></a>
+                    <a href="https://lu.linkedin.com/in/mailshopsarl"><img src="images/icons/icon_linkedin.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact_right">
+        <div>
+            <h2>Un devis?<br />Un renseignement?</h2>
+            Remplissez ce formulaire, nous reviendrons vers vos avec une solution adaptée à vos besoins.
+        </div>
+        <form id="contact-form" class="needs-validation" novalidate action="SendMail">
+            <input type="hidden" name="contact_number">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="validationCustom01">Prénom</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Prénom" name="user_firstname" required>
+                    <div class="invalid-feedback">
+                        Ce champ est obligatoire!
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="validationCustom02">Nom</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" name="user_lastname" required>
+                    <div class="invalid-feedback">
+                        Ce champ est obligatoire!
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="validationCustom03">Email</label>
+                    <input type="email" class="form-control" id="validationCustom03" placeholder="Email" name="user_email" required>
+                    <div class="invalid-feedback">
+                        Veuillez entrer une addresse mail valide.
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="validationCustom04">Sujet</label>
+                    <input type="text" class="form-control" id="validationCustom04" placeholder="Sujet" name="user_subject" required>
+                    <div class="invalid-feedback">
+                        Ce champ est obligatoire!
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="validationCustom05">Message</label>
+                    <textarea rows="5" class="form-control" id="validationCustom05" placeholder="Veuillez entrer un message ..." name="user_message" required></textarea>
+                    <div class="invalid-feedback">
+                        Ce champ est obligatoire!
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+        </form>
+    </div>
+</div>
