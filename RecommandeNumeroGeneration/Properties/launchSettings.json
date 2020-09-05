@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RecommandeNumeroGeneration": {
+      "commandName": "Project",
+      "commandLineArgs": "1551 LU 1 5000 C:\\Users\\Kevin\\source\\repos\\Mailshop\\RecommandeNumeroGeneration\\RegisteredNumbers.xlsx"
+    }
+  }
+}
