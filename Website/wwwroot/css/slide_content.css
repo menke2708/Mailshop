@@ -1,6 +1,6 @@
 ﻿@import "globalVariables.css";
 
-.slide_content {
+/*.slide_content {
     padding: 7.5px 0px;
     margin: 3% 12% 0% 12%;
     height: 82%;
@@ -8,7 +8,7 @@
     -webkit-box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
     -moz-box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
     box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
-}
+}*/
 
 .slide_content_position {
     position: relative;

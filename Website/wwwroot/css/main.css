@@ -28,19 +28,23 @@ body {
     background-position: center;
 }
 
-#header, #footer {
+/*#header, #footer {
     position: fixed;
     width: 100%;
     z-index: 9;
     display: block;
-}
+}*/
 
 #header {
-    top:0;
+    top: 0;
+    position: relative;
     height: 100px;
+    width: 100%;
+    display: block;
+    background-color:green;
 }
 
-#footer {
+/*#footer {
     bottom:0;
     height: 40px;
     color: var(--mailshop-white);
@@ -56,7 +60,7 @@ body {
 
 #footer_text div {
     margin: 0px 0px 0px 0px;
-}
+}*/
 
 .vertical_seperator {
     background-image: url("../images/logo/mailshop_seperator.png");
