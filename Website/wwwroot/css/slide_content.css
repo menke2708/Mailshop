@@ -1,13 +1,11 @@
 ﻿@import "globalVariables.css";
 
 .slide_content {
-    padding: 7.5px 0px;
-    margin: 5px 12% 0% 12%;
-    height: 98%;
-    /* width: 100%; */
+/*    padding: 10px 2%;
+    margin: 0;
     -webkit-box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
     -moz-box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
-    box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
+    box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);*/
 }
 
 .slide_content_position {
@@ -112,3 +110,28 @@
 }
 
 
+
+/*
+
+    fullpage.js  CSS
+
+*/
+
+/*.fp-tableCell {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.section .fp-section .fp-completely {
+    height: 100% !important;
+}
+
+.fp-section {
+    height: 100% !important;
+}
+
+.fp-tableCell {
+    height: 100% !important;
+}*/
