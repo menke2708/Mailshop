@@ -28,39 +28,27 @@ body {
     background-position: center;
 }
 
-/*#header, #footer {
-    position: fixed;
-    width: 100%;
-    z-index: 9;
-    display: block;
-}*/
-
 #header {
     top: 0;
-    position: relative;
+    position: fixed;
     height: 100px;
     width: 100%;
     display: block;
-    background-color:green;
 }
 
-/*#footer {
-    bottom:0;
+#footer {
+    bottom: 0;
+    position: fixed;
     height: 40px;
+    width: 100%;
+    display: block;
     color: var(--mailshop-white);
     background-color: var(--mailshop-footer-grey);
 }
 
-#footer_text {
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    margin-top:5px;
-}
-
 #footer_text div {
     margin: 0px 0px 0px 0px;
-}*/
+}
 
 .vertical_seperator {
     background-image: url("../images/logo/mailshop_seperator.png");
@@ -135,3 +123,27 @@ label {
         border-color: var(--mailshop-footer-grey);
     }*/
 
+/*
+
+    fullpage.js  CSS
+
+*/
+
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: top; 
+    width: 100%;
+    height: 100%;
+}
+
+.section .fp-section .fp-completely {
+    height: 100% !important;
+}
+
+.fp-section {
+    height: 100% !important;
+}
+
+.fp-tableCell{
+    height:100%!important;
+}

@@ -20,8 +20,7 @@
 
     <!-- NAVIGATION / HEADER -->
     <div id="header">
-        this is the header
-        <!--<nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#mailshop/home">
                 <img src="images/logo/mailshop_logo_withoutText.png" width="290" height="90" alt="">
@@ -53,7 +52,7 @@
                 </ul>
             </div>
         </div>
-    </nav>-->
+    </nav>
     </div>
         <!-- Begin page content -->
         <div id="fullpage">
@@ -75,9 +74,9 @@
                 </div>
                 <div class="slide" data-anchor="print">
                     <div class="slide_content slide_content_position">
-                        <div class="slide_main_images" style=" align-items: flex-start; justify-content: flex-end;">
+                        <!--<div class="slide_main_images" style=" align-items: flex-start; justify-content: flex-end;">
                             <img src="images/production/print/Print_1_2.png" style="position:relative;" />
-                        </div>
+                        </div>-->
                         <div class="slide_content_header slide_content_header_position">
                             <img class="slide_content_header_icon" src="images/icons/icon_print.png" />
                             <div class="slide_content_header_text" style="">print</div>
@@ -110,9 +109,9 @@
                 </div>
                 <div class="slide" data-anchor="mailing">
                     <div class="slide_content slide_content_position" style="">
-                        <div class="slide_main_images" style="align-items: flex-end; justify-content: flex-start;">
+                        <!--<div class="slide_main_images" style="align-items: flex-end; justify-content: flex-start;">
                             <img src="images/production/mailing/Maling_1_2.png" style="" />
-                        </div>
+                        </div>-->
                         <div class="slide_content_header slide_content_header_position">
                             <img class="slide_content_header_icon" src="images/icons/icon_mailing.png" />
                             <div class="slide_content_header_text" style="">mailing</div>
@@ -149,9 +148,9 @@
                 </div>
                 <div class="slide" data-anchor="graphics">
                     <div class="slide_content slide_content_position" style="">
-                        <div class="slide_main_images" style=" align-items: flex-end; justify-content: flex-start;">
+                        <!--<div class="slide_main_images" style=" align-items: flex-end; justify-content: flex-start;">
                             <img src="images/production/graphics/Graphic_1_2.png" style="" />
-                        </div>
+                        </div>-->
                         <div class="slide_content_header slide_content_header_position">
                             <img class="slide_content_header_icon" src="images/icons/icon_graphics.png" />
                             <div class="slide_content_header_text" style="">graphics</div>
@@ -186,9 +185,9 @@
                 </div>
                 <div class="slide" data-anchor="cards">
                     <div class="slide_content slide_content_position" style="">
-                        <div class="slide_main_images" style=" align-items: flex-end; justify-content: flex-end;">
+                        <!--<div class="slide_main_images" style=" align-items: flex-end; justify-content: flex-end;">
                             <img src="images/production/cards/Card_1_2.png" style="" />
-                        </div>
+                        </div>-->
                         <div class="slide_content_header slide_content_header_position">
                             <img class="slide_content_header_icon" src="images/icons/icon_cards.png" />
                             <div class="slide_content_header_text" style="">cards</div>
@@ -392,7 +391,7 @@
 
 
         <!-- FOOTER -->
-        <!--<div id="footer">
+        <div id="footer">
         <div id="footer_text">
             <div>11, rue Léon Metz</div>
             <div style=" margin-top: 2px;" class="vertical_seperator"></div>
@@ -404,7 +403,7 @@
                 <a class="link_footer" href="mailto:info@mailshop.lu">info@mailshop.lu</a>
             </div>
         </div>
-    </div>-->
+    </div>
 
         <script src="lib/jquery/jquery.min.js"></script>
         <script src="lib/popper.js/umd/popper.min.js"></script>
@@ -420,7 +419,7 @@
                     controlArrows: false
                 });
 
-                //$('#fullpage').attr('style', 'height: calc(100% - 140px);position: relative;touch-action: none;transform: translate3d(0px, 0px, 0px);');
+                $('#fullpage').attr('style', 'top:100px;height: calc(100% - 140px);position: relative;touch-action: none;transform: translate3d(0px, 0px, 0px);');
 
                 //methods
                 $.fn.fullpage.setAllowScrolling(false);
