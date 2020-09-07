@@ -28,42 +28,69 @@ body {
     background-position: center;
 }
 
+/* Fixed header and footer.
+	* --------------------------------------- */
 #header {
-    top: 0;
     position: fixed;
     height: 100px;
-    width: 100%;
     display: block;
+    background-color:yellow;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: var(--mailshop-grey-dark-logo);
+}
+
+#header {
+    top: 0px;
 }
 
 #footer {
-    bottom: 0;
-    position: fixed;
-    height: 40px;
-    width: 100%;
-    display: block;
-    color: var(--mailshop-white);
-    background-color: var(--mailshop-footer-grey);
-}
-
-#footer_text {
     display: flex;
-    flex-direction: column;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 5px;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    padding: 30px 10% 30px 10%;
+    background-color: var(--mailshop-grey-light-02);
+    color: var(--mailshop-grey-dark-logo);
+    font-size:10pt;
 }
 
-#footer_text div {
-    margin: 0px 0px 0px 0px;
+#footer_left{
+    width:40%;
+}
+
+#footer_right {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer .link {
+    color: var(--mailshop-grey-dark-logo);
+    text-decoration: none;
+}
+
+#footer .link:hover{
+    color:var(--mailshop-logo-orange);
+    text-decoration:underline;
+}
+
+.footer_header {
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .vertical_seperator {
     background-image: url("../images/logo/mailshop_seperator.png");
-    background-repeat:no-repeat;
-    background-position:center;
-    width:15px;
-    height:23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 23px;
 }
 
 .link_footer{
