@@ -34,7 +34,6 @@ body {
     position: fixed;
     height: 100px;
     display: block;
-    background-color:yellow;
     width: 100%;
     z-index: 9;
     text-align: center;

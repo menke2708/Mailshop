@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
+
+    <title>Mailshop</title>
+
+    <link href="css/resetCSS.css" rel="stylesheet" />
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/06b03d6d9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main_top" class="container-fluid">
+        <img class="img-fluid" src="images/logo/mailshop_logo_withoutText.png" />
+    </div>
+    <div id="main_mid" class="container-fluid">
+        <div id="under_construction" style="">
+            <div class="under_construction_content">
+                Cher visiteur,<br /><br />notre page web est en construction. Veuillez trouver ci-dessous nos coordonnées.<br /><br />Merci.
+            </div>
+            <div class="under_construction_content">
+                Dear visitor, <br /><br />our website is currently under construction. Please find below our contact details.<br /><br />Thank you.
+            </div>
+        </div>
+    </div>
+
+    <div id="main_bot" class="container-fluid fixed-bottom">
+        <div id="contact" style="">
+            <div class="contact_content" style="">
+                <div class="contact_header">
+                    Addresse
+                </div>
+                <div>
+                    <a class="link" title="" href="https://www.google.com/maps/place/Mailshop+S%C3%A0rl/@49.5031979,5.9856768,15z/data=!4m5!3m4!1s0x0:0x9ac7b0c5d3a6c8e8!8m2!3d49.5031979!4d5.9856768">
+                        <span>
+                            11, rue Léon Metz<br />
+                            L-4238 Esch-sur-Alzette<br />
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div style="" class="vertical_seperator"></div>
+            <div class="contact_content">
+                <div class="contact_header">
+                    Contact
+                </div>
+                <div>
+                    <a class="link" href="mailto:info@mailshop.lu">info@mailshop.lu</a>
+                </div>
+                <div>
+                    (+352) 24 55 92 74
+                </div>
+            </div>
+            <div style="" class="vertical_seperator"></div>
+            <div class="contact_content">
+                <div class="contact_header">
+                    Suivez nous
+                </div>
+                <div id="contact_social">
+                    <a href="https://www.facebook.com/MAILSHOP.lu"><img src="images/icons/icon_facebook.png" height="40" width="40" /></a>
+                    <div>&ensp;</div>
+                    <a href="https://lu.linkedin.com/in/mailshopsarl"><img src="images/icons/icon_linkedin.png" height="40" width="40" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/popper.js/umd/popper.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 950) {
+                $('#main_bot').removeClass('fixed-bottom');
+            } else {
+                $('#main_bot').addClass('fixed-bottom');
+            }
+        });
+
+        function checkWidth() {
+            if ($(window).width() < 950) {
+                $('#main_bot').removeClass('fixed-bottom');
+            } else {
+                $('#main_bot').addClass('fixed-bottom');
+            }
+        }
+
+        $(window).resize(checkWidth);
+    </script>
+
+</body>
+</html>
