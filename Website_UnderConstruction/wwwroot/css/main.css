@@ -33,8 +33,9 @@ body {
 
 #main_mid {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 2.5%;
 }
 
 #under_construction {
@@ -118,6 +119,10 @@ body {
 
 
 @media screen and (max-width: 950px) {
+
+    #main_mid{
+        margin-top:0;
+    }
 
     #under_construction {
         display: flex;
