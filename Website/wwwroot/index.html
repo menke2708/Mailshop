@@ -19,53 +19,54 @@
     <div id="background_image"></div>
 
     <!-- NAVIGATION / HEADER -->
-    <div id="header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#mailshop/home">
-                    <img src="images/logo/mailshop_logo_withoutText.png" width="290" height="90" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span><i class="fa fa-bars"></i></span>
-                </button>
+    <nav id="header" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#mailshop/home">
+                <img src="images/logo/mailshop_logo_withoutText.png" width="290" height="90" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span><i class="fa fa-bars"></i></span>
+            </button>
 
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav mr-auto" id="myMenu">
-                        <li data-menuanchor="mailshop" data-anchor="print" class="nav-item">
-                            <a class="nav-link" href="#mailshop/print">Print</a>
-                        </li>
-                        <li data-menuanchor="mailshop" data-anchor="mailing" class="nav-item">
-                            <a class="nav-link" href="#mailshop/mailing">Mailing</a>
-                        </li>
-                        <li data-menuanchor="mailshop" data-anchor="graphics" class="nav-item">
-                            <a class="nav-link" href="#mailshop/graphics">Graphics</a>
-                        </li>
-                        <li data-menuanchor="mailshop" data-anchor="cards" class="nav-item">
-                            <a class="nav-link" href="#mailshop/cards">Cards</a>
-                        </li>
-                        <li data-menuanchor="mailshop" data-anchor="aboutUs" class="nav-item active">
-                            <a class="nav-link" href="#mailshop/aboutUs">About Us</a>
-                        </li>
-                        <li data-menuanchor="mailshop" data-anchor="contact" class="nav-item">
-                            <a class="nav-link" href="#mailshop/contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav mr-auto" id="myMenu">
+                    <li data-menuanchor="mailshop" data-anchor="print" class="nav-item">
+                        <a class="nav-link" href="#mailshop/print">Print</a>
+                    </li>
+                    <li data-menuanchor="mailshop" data-anchor="mailing" class="nav-item">
+                        <a class="nav-link" href="#mailshop/mailing">Mailing</a>
+                    </li>
+                    <li data-menuanchor="mailshop" data-anchor="graphics" class="nav-item">
+                        <a class="nav-link" href="#mailshop/graphics">Graphics</a>
+                    </li>
+                    <li data-menuanchor="mailshop" data-anchor="cards" class="nav-item">
+                        <a class="nav-link" href="#mailshop/cards">Cards</a>
+                    </li>
+                    <li data-menuanchor="mailshop" data-anchor="aboutUs" class="nav-item active">
+                        <a class="nav-link" href="#mailshop/aboutUs">About Us</a>
+                    </li>
+                    <li data-menuanchor="mailshop" data-anchor="contact" class="nav-item">
+                        <a class="nav-link" href="#mailshop/contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </div>
-    <!-- Begin page content -->
-
-    <div id="fullpage">
-        <div class="section" data-anchor="home">
-            <ul>
-                <li>Print</li>
-                <li>Mailing</li>
-                <li>Graphics</li>
-                <li>Cards</li>
-            </ul>
         </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <!--<div id="fullpage">
         <div class="section">
+            <div class="slide " data-anchor="home">
+                <h1>HOME</h1>
+
+                <ul>
+                    <li>Print</li>
+                    <li>Mailing</li>
+                    <li>Graphics</li>
+                    <li>Cards</li>
+                </ul>
+            </div>
+
             <div class="slide " data-anchor="print">
                 <h1>Print</h1>
             </div>
@@ -81,53 +82,54 @@
             <div class="slide " data-anchor="cards">
                 <h1>Cards</h1>
             </div>
-        </div>
 
-        <div class="section " data-anchor="aboutUs">
-            <h1>About Us</h1>
-        </div>
+            <div class="slide " data-anchor="aboutUs">
+                <h1>About Us</h1>
+            </div>
 
-        <div class="section " data-anchor="contact">
-            <h1>Contact</h1>
+            <div class="slide " data-anchor="contact">
+                <h1>Contact</h1>
+            </div>
         </div>
-
-    </div>
+    </div>-->
+   
 
 
     <!-- FOOTER -->
-    <div id="footer">
-        <div id="footer_left" style="display:flex;flex-direction:column;">
-            <div>
-                <img src="images/logo/mailshop_logo_withoutText.png" width="190" height="65"/>
-            </div> 
-            <div style="margin-top:15px;">
+    <div id="footer" class="container-fluid">
+        <div id="footer_top">
+            <div id="footer_left" style="display:flex;flex-direction:column;">
                 <div>
-                    Suivez nous
+                    <img src="images/logo/mailshop_logo_withoutText.png" width="190" height="65" />
                 </div>
-                <div id="footer_social" style="margin-top:5px;display:flex;flex-direction:row;">
-                    <a href="https://www.facebook.com/MAILSHOP.lu"><img src="images/icons/icon_facebook.png" /></a>
-                    <div>&ensp;</div>
-                    <a href="https://lu.linkedin.com/in/mailshopsarl"><img src="images/icons/icon_linkedin.png" /></a>
+                <div style="margin-top:15px;">
+                    <div>
+                        Suivez nous
+                    </div>
+                    <div id="footer_social" style="margin-top:5px;display:flex;flex-direction:row;">
+                        <a href="https://www.facebook.com/MAILSHOP.lu"><img src="images/icons/icon_facebook.png" /></a>
+                        <div>&ensp;</div>
+                        <a href="https://lu.linkedin.com/in/mailshopsarl"><img src="images/icons/icon_linkedin.png" /></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div id="footer_right">
-            <div id="footer_address" style="display:flex;flex-direction:column;">
-                <div class="footer_header">
-                    Addresse
+            <div id="footer_right">
+                <div id="footer_address" style="display:flex;flex-direction:column;">
+                    <div class="footer_header">
+                        Addresse
+                    </div>
+                    <div>
+                        <a class="link" title="" href="https://www.google.com/maps/place/Mailshop+S%C3%A0rl/@49.5031979,5.9856768,15z/data=!4m5!3m4!1s0x0:0x9ac7b0c5d3a6c8e8!8m2!3d49.5031979!4d5.9856768">
+                            <span>
+                                11, rue Léon Metz<br />
+                                L-4238 Esch-sur-Alzette<br />
+                            </span>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a class="link" title="" href="https://www.google.com/maps/place/Mailshop+S%C3%A0rl/@49.5031979,5.9856768,15z/data=!4m5!3m4!1s0x0:0x9ac7b0c5d3a6c8e8!8m2!3d49.5031979!4d5.9856768">
-                        <span>
-                            11, rue Léon Metz<br />
-                            L-4238 Esch-sur-Alzette<br />
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div style="" class="vertical_seperator"></div>
-            <div id="footer_contact" style="display: flex;flex-direction: column;">
+                <div style="" class="vertical_seperator"></div>
+                <div id="footer_contact" style="display: flex;flex-direction: column;">
                     <div class="footer_header">
                         Contact
                     </div>
@@ -137,11 +139,11 @@
                     <div>
                         (+352) 24 55 92 74
                     </div>
-            </div>
-            <div style="" class="vertical_seperator"></div>
-            <div id="footer_hours" style="display:flex;flex-direction:column;">
+                </div>
+                <div style="" class="vertical_seperator"></div>
+                <div id="footer_hours" style="display:flex;flex-direction:column;">
                     <div class="footer_header">
-                        Horaires
+                        Horaires d'ouvertures'
                     </div>
                     <div>
                         Lundi - Vendredi
@@ -149,7 +151,15 @@
                     <div>
                         8h00 - 17h00
                     </div>
+                </div>
             </div>
+        </div>
+
+        <div id="footer_bot">
+            <hr style="border-top:1px solid grey; width:100%; margin-top: 0!important; margin-bottom: 1.5px!important"/>
+            <span>
+                &copy;&ensp;mailshop&ensp;2020
+            </span>
         </div>
 
     </div>
@@ -162,14 +172,19 @@
         $(document).ready(function () {
 
             $('#fullpage').fullpage({
+                licenseKey:'8E0D0026-48474FB5-B358951F-8D225A92',
                 //options here
                 anchors: ['mailshop'],
                 menu: '#myMenu',
-                sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-                css3: true,
+                paddingTop: "120px",
+                paddingBottom:'20px',
+                verticalCentered: false,
                 controlArrows: false,
-                autoScrolling: false,
-                fitToSection: false
+                fixedElements: "#header",
+                //autoScrolling: false,
+                //css3: true, // true == deafult value
+                //loopHorizontal: true //true == deafult value
+
             });
 
             //$('#fullpage').attr('style', 'top:100px;height: calc(100% - 140px);position: relative;touch-action: none;transform: translate3d(0px, 0px, 0px);');
