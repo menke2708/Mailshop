@@ -1,12 +1,12 @@
-﻿@import "globalVariables.css";
+﻿/*@import "globalVariables.css";
 
-.slide_content {
+.slide_content {*/
 /*    padding: 10px 2%;
     margin: 0;
     -webkit-box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
     -moz-box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);
     box-shadow: 2px 2px 7px 0px rgba(75,82,86,0.5);*/
-}
+/*}
 
 .slide_content_position {
     position: relative;
@@ -55,7 +55,7 @@
 
 .slide_content_paragraph_position {
     position: relative;
-}
+}*/
 
 /*
 
@@ -63,7 +63,7 @@
 
 */
 
-#contact_left {
+/*#contact_left {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -93,7 +93,7 @@
 
 #contact_social {
     margin-left: 15px;
-}
+}*/
 
 /*
 
@@ -101,13 +101,13 @@
 
 */
 
-.link_content {
+/*.link_content {
     color : var(--mailshop-black);
 }
 
 .link_content:hover {
     color: var(--mailshop-logo-orange);
-}
+}*/
 
 
 

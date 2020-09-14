@@ -8,92 +8,68 @@
     <link href="css/resetCSS.css" rel="stylesheet" />
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="lib/fullPage.js/fullpage.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/menu.css" rel="stylesheet" />
-    <link href="css/.css" rel="stylesheet" />
-    <link href="lib/fullPage.js/fullpage.css" rel="stylesheet" />
 
     <script src="https://kit.fontawesome.com/06b03d6d9e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="background_image"></div>
+    <!--<div id="background_image"></div>-->
 
     <!-- NAVIGATION / HEADER -->
-    <nav id="header" class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#mailshop/home">
-                <img src="images/logo/mailshop_logo_withoutText.png" width="290" height="90" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                <span><i class="fa fa-bars"></i></span>
-            </button>
+    <div id="header" style="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#mailshop/home">
+                    <img src="images/logo/mailshop_logo_withoutText.png" width="290" height="90" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span><i class="fa fa-bars"></i></span>
+                </button>
 
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav mr-auto" id="myMenu">
-                    <li data-menuanchor="mailshop" data-anchor="print" class="nav-item">
-                        <a class="nav-link" href="#mailshop/print">Print</a>
-                    </li>
-                    <li data-menuanchor="mailshop" data-anchor="mailing" class="nav-item">
-                        <a class="nav-link" href="#mailshop/mailing">Mailing</a>
-                    </li>
-                    <li data-menuanchor="mailshop" data-anchor="graphics" class="nav-item">
-                        <a class="nav-link" href="#mailshop/graphics">Graphics</a>
-                    </li>
-                    <li data-menuanchor="mailshop" data-anchor="cards" class="nav-item">
-                        <a class="nav-link" href="#mailshop/cards">Cards</a>
-                    </li>
-                    <li data-menuanchor="mailshop" data-anchor="aboutUs" class="nav-item active">
-                        <a class="nav-link" href="#mailshop/aboutUs">About Us</a>
-                    </li>
-                    <li data-menuanchor="mailshop" data-anchor="contact" class="nav-item">
-                        <a class="nav-link" href="#mailshop/contact">Contact</a>
-                    </li>
-                </ul>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav mr-auto" id="myMenu">
+                        <li data-menuanchor="mailshop" data-anchor="print" class="nav-item">
+                            <a class="nav-link" href="#mailshop/print">Print</a>
+                        </li>
+                        <li data-menuanchor="mailshop" data-anchor="mailing" class="nav-item">
+                            <a class="nav-link" href="#mailshop/mailing">Mailing</a>
+                        </li>
+                        <li data-menuanchor="mailshop" data-anchor="graphics" class="nav-item">
+                            <a class="nav-link" href="#mailshop/graphics">Graphics</a>
+                        </li>
+                        <li data-menuanchor="mailshop" data-anchor="cards" class="nav-item">
+                            <a class="nav-link" href="#mailshop/cards">Cards</a>
+                        </li>
+                        <li data-menuanchor="mailshop" data-anchor="aboutUs" class="nav-item active">
+                            <a class="nav-link" href="#mailshop/aboutUs">About Us</a>
+                        </li>
+                        <li data-menuanchor="mailshop" data-anchor="contact" class="nav-item">
+                            <a class="nav-link" href="#mailshop/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <div class="slide">
+                <h1>One Single Section</h1>
+            </div>
+
+            <div class="slide">
+                <h1>And a normal website under it</h1>
+            </div>
+
+            <div class="slide">
+                <h1>A great single slider!</h1>
             </div>
         </div>
-    </nav>
-
-    <!-- Begin page content -->
-    <!--<div id="fullpage">
-        <div class="section">
-            <div class="slide " data-anchor="home">
-                <h1>HOME</h1>
-
-                <ul>
-                    <li>Print</li>
-                    <li>Mailing</li>
-                    <li>Graphics</li>
-                    <li>Cards</li>
-                </ul>
-            </div>
-
-            <div class="slide " data-anchor="print">
-                <h1>Print</h1>
-            </div>
-
-            <div class="slide " data-anchor="mailing">
-                <h1>Mailing</h1>
-            </div>
-
-            <div class="slide " data-anchor="graphics">
-                <h1>Graphics</h1>
-            </div>
-
-            <div class="slide " data-anchor="cards">
-                <h1>Cards</h1>
-            </div>
-
-            <div class="slide " data-anchor="aboutUs">
-                <h1>About Us</h1>
-            </div>
-
-            <div class="slide " data-anchor="contact">
-                <h1>Contact</h1>
-            </div>
-        </div>
-    </div>-->
-   
-
+    </div>
 
     <!-- FOOTER -->
     <div id="footer" class="container-fluid">
@@ -143,7 +119,7 @@
                 <div style="" class="vertical_seperator"></div>
                 <div id="footer_hours" style="display:flex;flex-direction:column;">
                     <div class="footer_header">
-                        Horaires d'ouvertures'
+                        Horaires d'ouvertures
                     </div>
                     <div>
                         Lundi - Vendredi
@@ -156,7 +132,7 @@
         </div>
 
         <div id="footer_bot">
-            <hr style="border-top:1px solid grey; width:100%; margin-top: 0!important; margin-bottom: 1.5px!important"/>
+            <hr style="border-top:1px solid grey; width:100%; margin-top: 0!important; margin-bottom: 1.5px!important" />
             <span>
                 &copy;&ensp;mailshop&ensp;2020
             </span>
@@ -172,25 +148,24 @@
         $(document).ready(function () {
 
             $('#fullpage').fullpage({
-                licenseKey:'8E0D0026-48474FB5-B358951F-8D225A92',
+                licenseKey: '8E0D0026-48474FB5-B358951F-8D225A92',
                 //options here
-                anchors: ['mailshop'],
-                menu: '#myMenu',
-                paddingTop: "120px",
-                paddingBottom:'20px',
+                scrollBar: true,
+                //anchors: ['mailshop'],
+                //menu: '#myMenu',
+                paddingTop: '20px',
+                paddingBottom: '20px',
                 verticalCentered: false,
                 controlArrows: false,
-                fixedElements: "#header",
-                //autoScrolling: false,
-                //css3: true, // true == deafult value
+                //fixedElements: "#header",
+                autoScrolling: false,
+                css3: true // true == deafult value
                 //loopHorizontal: true //true == deafult value
 
             });
 
-            //$('#fullpage').attr('style', 'top:100px;height: calc(100% - 140px);position: relative;touch-action: none;transform: translate3d(0px, 0px, 0px);');
-
             //methods
-            $.fn.fullpage.setAllowScrolling(false);
+            $.fn.fullpage.setAllowScrolling(true);
 
         });
     </script>

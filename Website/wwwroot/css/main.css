@@ -113,7 +113,7 @@ body {
 
 /*
     BOOTRSTRAP MANIPULATION
-*/
+
 
 #header .navbar .container {
     margin-left: 8%;
@@ -145,7 +145,7 @@ label {
     outline: 0;
     box-shadow: 0 0 0 1px rgba(235,90,37,1);
 }
-
+*/
 /*.btn-primary {
     color: var(--mailshop-footer-grey);
     background-color: var(--mailshop-logo-orange);
