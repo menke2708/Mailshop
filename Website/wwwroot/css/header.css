@@ -1,0 +1,17 @@
+﻿@import "globalVariables.css";
+
+
+#header{
+    height:105px;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.nav-link {
+    color: var(--mailshop-footer-grey);
+}
+
+    .nav-link:focus, .nav-link:hover, .nav-link:active {
+        text-decoration: underline;
+        color: var(--mailshop-logo-orange);
+    }

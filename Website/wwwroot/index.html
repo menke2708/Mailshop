@@ -10,12 +10,14 @@
     <link href="lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
     <link href="lib/fullPage.js/fullpage.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <link href="css/menu.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/myFullpage.css" rel="stylesheet" />
 
     <script src="https://kit.fontawesome.com/06b03d6d9e.js" crossorigin="anonymous"></script>
 </head>
 <body style="background-color:blue;">
-    <!--<div id="background_image"></div>-->
+    <div id="background_image"></div>
 
     <!-- NAVIGATION / HEADER -->
     <div id="header" style="">
@@ -55,18 +57,41 @@
     </div>
 
 
-    <div id="fullpage" style="background-color:saddlebrown;">
-        <div class="section " id="section0">
-            <div class="slide">
-                <h1>One Single Section</h1>
+    <div id="fullpage">
+        <div class="section">
+            <div class="slide " data-anchor="home">
+                <h1>HOME</h1>
+
+                <ul>
+                    <li>Print</li>
+                    <li>Mailing</li>
+                    <li>Graphics</li>
+                    <li>Cards</li>
+                </ul>
             </div>
 
-            <div class="slide">
-                <h1>And a normal website under it</h1>
+            <div class="slide " data-anchor="print">
+                <h1>Print</h1>
             </div>
 
-            <div class="slide">
-                <h1>A great single slider!</h1>
+            <div class="slide " data-anchor="mailing">
+                <h1>Mailing</h1>
+            </div>
+
+            <div class="slide " data-anchor="graphics">
+                <h1>Graphics</h1>
+            </div>
+
+            <div class="slide " data-anchor="cards">
+                <h1>Cards</h1>
+            </div>
+
+            <div class="slide " data-anchor="aboutUs">
+                <h1>About Us</h1>
+            </div>
+
+            <div class="slide " data-anchor="contact">
+                <h1>Contact</h1>
             </div>
         </div>
     </div>
@@ -151,21 +176,24 @@
                 licenseKey: '8E0D0026-48474FB5-B358951F-8D225A92',
                 //options here
                 scrollBar: true,
-                //anchors: ['mailshop'],
-                //menu: '#myMenu',
+                anchors: ['mailshop'],
+                menu: '#myMenu',
                 paddingTop: '20px',
                 paddingBottom: '20px',
                 verticalCentered: false,
                 controlArrows: false,
-                //fixedElements: "#header",
                 autoScrolling: false,
-                css3: true // true == deafult value
-                //loopHorizontal: true //true == deafult value
-
+                css3: true,
+                slidesNavigation: true,
+                fitToSection: false,
+                keyboardScrolling: true
             });
 
             //methods
             $.fn.fullpage.setAllowScrolling(true);
+
+            $('#fullpage').css('height', '100%').css('height', '-=105px');
+            $('.section').css('height', '100%')
 
         });
     </script>
