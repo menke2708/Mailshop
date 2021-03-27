@@ -69,7 +69,7 @@ body {
 #contact {
     background-color: var(--mailshop-grey-light-02);
     color: var(--mailshop-grey-dark-logo);
-    font-size: 10pt;
+    font-size: 10.5pt;
     height: 35%;
     width: 100%;
     display: flex;
