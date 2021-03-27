@@ -1,0 +1,17 @@
+﻿:root {
+    --mailshop-white: #ffffff;
+    --mailshop-black: #000000;
+    --mailshop-footer-grey: #4B5256;
+    --mailshop-grey-light-01: #CFD0D1;
+    --mailshop-grey-light-02: #c9c7c7;
+    --mailshop-grey-dark: #1E1E1C;
+    --mailshop-grey-dark-logo: #4B5256;
+    --mailshop-yellow: #feeb17;
+    --mailshop-red: #932926;
+    --mailshop-green: #009640;
+    --mailshop-lime-green: #95e11f;
+    --mailshop-purple: #941c80;
+    --mailshop-blue: #0669b2;
+    --mailshop-orange: #f29201;
+    --mailshop-logo-orange: #EB5B25;
+}

@@ -61,14 +61,16 @@
     <div id="fullpage">
         <div class="section">
             <div class="slide " data-anchor="home">
-                <h1>HOME</h1>
-
-                <ul>
-                    <li>Print</li>
-                    <li>Mailing</li>
-                    <li>Graphics</li>
-                    <li>Cards</li>
-                </ul>
+                <div class="slide_content">
+                    <div class="slide_content_text">
+                        <ul>
+                            <li>Print</li>
+                            <li>Mailing</li>
+                            <li>Graphics</li>
+                            <li>Cards</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div class="slide " data-anchor="print">
@@ -250,8 +252,8 @@
                     </div>
                     <div class="slide_content_text" style="display: flex; flex-direction: row;">
                         <div id="contact_left">
-                            <div id="contact_details">
-                                <div style="display:flex;flex-direction:row;align-content:space-between;">
+                            <div id="contact_left_top">
+                                <div style="border:solid 1px black;">
                                     <div>
                                         <img src="images/icons/icon_ou nous trouver.png" />
                                     </div>
@@ -264,12 +266,16 @@
                                             </span>
                                         </a>
                                     </div>
-                                </div>
-                                <div style="display:flex;flex-direction:row;">
+                                </div>   
+
+                                <div style="border:solid 1px black;">
                                     <div>
-                                        <img src="images/icons/icon_contact.png" />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                            <i class="fa fa-address-book fa-stack-1x" style="color: #EB5B25;"></i>
+                                        </span>
                                     </div>
-                                    <div style="margin-top:14px;">
+                                    <div>
                                         <div>
                                             (+352) 24 55 92 74
                                         </div>
@@ -278,9 +284,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div style="display:flex;flex-direction:row;">
+
+                                <div style="border:solid 1px black;">
                                     <div>
-                                        <img src="images/icons/icon_contact.png" />
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                            <i class="fa fa-clock fa-stack-1x" style="color: #EB5B25;"></i>
+                                        </span>
                                     </div>
                                     <div>
                                         <div>
@@ -294,11 +304,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="contact_map">
-                                <img src="images/icons/Plan_mailshop.png" style="height: 500px;width: 770px;" />
-                            </div>
-                            <div id="contact_social">
+                            </div>                            
+                            <div id="contact_left_bot">
                                 <div style="display:flex;flex-direction:row;">
                                     Restons connectés
                                     <div style="margin:-30px 0px 0px 10px;">
@@ -416,7 +423,7 @@
                 <div style="" class="vertical_seperator"></div>
                 <div id="footer_hours" style="display:flex;flex-direction:column;">
                     <div class="footer_header">
-                        Horaires d'ouvertures
+                        Heures d'ouvertures
                     </div>
                     <div>
                         Lundi - Vendredi

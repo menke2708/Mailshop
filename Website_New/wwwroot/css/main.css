@@ -1,0 +1,26 @@
+﻿
+
+body {
+    font-family:Arial;
+}
+
+.nav-link {
+    margin: 15px 5px 0 15px;
+    font-size: large;
+    font-weight: 400;
+    color: #4b5256;
+}
+
+.nav-link:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.nav-link-active {
+    color: orange;
+    text-decoration: underline;
+}
+
+#mailshop_navigation_links {
+    justify-content: flex-end;
+}
