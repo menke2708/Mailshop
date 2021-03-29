@@ -1,0 +1,31 @@
+﻿@import "globalVariables.css";
+
+.contact_link {
+    color: var(--mailshop-grey-dark-logo);
+    text-decoration: none;
+}
+
+    .contact_link:hover {
+        color: var(--mailshop-logo-orange);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.contact_social > a {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px var(--mailshop-footer-grey);
+    margin: 0 10px;
+    color: var(--mailshop-footer-grey);
+    opacity: 0.75;
+}
+
+    .contact_social > a:hover {
+        opacity: 0.9;
+        color: var(--mailshop-logo-orange);
+    }
