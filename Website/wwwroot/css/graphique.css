@@ -1,0 +1,25 @@
+﻿@import "globalVariables.css";
+
+
+#Graphique_PageHeaderIcon {
+    background: url("../images/icons/icon_graphics.png");
+    width: 142px;
+    height: 122px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*
+
+    SMARTPHONE with max width of 400 pixels
+
+*/
+@media screen and (max-width: 400px) {
+
+    #Printing_PageHeaderIcon {
+    }
+
+    .mainContent_header {
+    }
+}

@@ -1,0 +1,52 @@
+﻿@import "globalVariables.css";
+
+
+#AboutUs_PageHeaderIcon {
+    background: url("../images/logo/Env_Orange_450x250px.png");
+    width: 150px;
+    height: 84px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#div_memberships{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+}
+
+#div_memberships > div{
+    margin:0 15px;
+}
+
+#icon_SDK {
+    background: url("../images/icons/icon_SDK.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#icon_MadeInLux {
+    background: url("../images/icons/icon_MadeInLux.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*
+
+    SMARTPHONE with max width of 400 pixels
+
+*/
+@media screen and (max-width: 400px) {
+
+    #Printing_PageHeaderIcon {
+    }
+
+    .mainContent_header {
+    }
+}

@@ -13,8 +13,10 @@
     <link href="lib/fullPage.js/fullpage.css" rel="stylesheet" />
 
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet" />
     <link href="css/navigation.css" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/graphique.css" rel="stylesheet" />
 
     <script src="https://kit.fontawesome.com/06b03d6d9e.js" crossorigin="anonymous"></script>
 </head>
@@ -46,7 +48,7 @@
                             <ul class="dropdown-menu shadow">
                                 <li><a class="dropdown-item" href="printing.html">Print</a></li>
                                 <li><a class="dropdown-item" href="mailing.html">Mailings</a></li>
-                                <li><a class="dropdown-item dropdown-item-active" href="graphique.html">Graphique</a></li>
+                                <li><a class="dropdown-item dropdown-item-active" href="graphique.html">Graphisme</a></li>
                                 <li><a class="dropdown-item" href="cartes.html">Cartes</a></li>
                             </ul>
                         </li>
@@ -59,64 +61,132 @@
         </nav>
     </header>
 
-    <main>
-        <div class="container col-12">
-            <h1>Graphisme</h1>
+    <main class="mainContent">
+        <div class="mailshop-table">
+            <div class="mailshop-row">
+                <div class="mailshop-cell mailshop-size-100 mainContent_header">
+                    <div id="Graphique_PageHeaderIcon"></div>
+                    <h3 style=" letter-spacing: 1.5px; font-weight: 500;">Graphisme</h3>
+                </div>
+            </div>
+            <div class="mailshop-row">
+                <div class="mailshop-cell mailshop-size-25" style="display:flex;justify-content:flex-start;align-items:flex-end;">
+                    <img src="images/production/graphics/Graphic_1_2.png" width="300" height="400" />
+                </div>
+                <div class="mailshop-cell mailshop-size-75">
+                    <!-- CONTENT GRAPHIQUE -->
+                    <div class="mailshop-table">
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-60">
+                                <p>
+                                    <span class="fontWeightBold mailshopOrangeColor">Vous souhaitez communiquer ?</span>
+                                </p>
+                                <p>
+                                    Nous pouvons vous conseiller dans votre communication visuelle :
+                                    <br />
+                                    À votre écoute de la conception graphique (conseil, création de logo, conception d’identité visuelle, mise en page…) jusqu’à l’impression.
+                                </p>
+                                <p>
+                                    <span class="fontWeightBold">Votre interlocuteur unique :</span>
+                                    <br />
+                                    <span class="fontWeightBold"><span class="mailshopOrangeColor">Mail</span>shop</span>, de la demande de devis à la livraison, vous n’avez qu’un seul interlocuteur, entièrement disponible tout au long de la chaîne graphique. Il pourra vous informer de l’évolution de votre commande.
+                                </p>
+                            </div>
+                            <div class="mailshop-cell mailshop-size-40" style="padding-left:2%;padding-right:2%;">
+                                <img src="images/production/photo graphics.png" />
+                            </div>
+                        </div>
+                        <div class="mailshop-row" style="margin-top:4%;">
+                            <div class="mailshop-cell mailshop-size-100" style="text-align:center">
+                                <h4 class="mailshopOrangeColor">Toujours une idée d'avance!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 item" style="display:flex;flex-direction:column;align-items:center;">
-                        <h3><i class="fas fa-map-marker-alt"></i></h3>
-                        <ul class="list-unstyled">
-                            <li>
+    <footer class="footer-dark">
+        <div class="mailshop-table">
+            <div class="mailshop-row" style="justify-content:space-evenly; margin-bottom: 15px;">
+                <div class="mailshop-cell mailshop-size-20">
+                    <div class="mailshop-table">
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
+                                <h3><i class="fas fa-map-marker-alt"></i></h3>
+                            </div>
+                        </div>
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
                                 <a class="link" title="" href="https://www.google.com/maps/place/Mailshop+S%C3%A0rl/@49.5031979,5.9856768,15z/data=!4m5!3m4!1s0x0:0x9ac7b0c5d3a6c8e8!8m2!3d49.5031979!4d5.9856768">
                                     <span>
+                                        Mailshop Sàrl<br />
                                         11, rue Léon Metz<br />
                                         L-4238 Esch-sur-Alzette<br />
                                     </span>
                                 </a>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-4 item" style="display:flex;flex-direction:column;align-items:center;">
-                        <h3><i class="fas fa-address-book"></i></h3>
-                        <ul class="list-unstyled">
-                            <li>
+                </div>
+                <div class="mailshop-cell mailshop-size-20">
+                    <div class="mailshop-table">
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
+                                <h3><i class="fas fa-address-book"></i></h3>
+                            </div>
+                        </div>
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
                                 <a class="link" href="mailto:info@mailshop.lu">info@mailshop.lu</a>
-                            </li>
-                            <li>
+                            </div>
+                        </div>
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
                                 <span>(+352) 24 55 92 74</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4 item" style="display:flex;flex-direction:column;align-items:center;">
-                        <h3><i class="fas fa-clock"></i></h3>
-                        <ul class="list-unstyled">
-                            <li>
-                                Lundi - Vendredi
-                            </li>
-                            <li>
-                                08h00 - 17h00
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col item social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                <div class="mailshop-cell mailshop-size-20">
+                    <div class="mailshop-table">
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
+                                <h3><i class="fa fa-clock"></i></h3>
+                            </div>
+                        </div>
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
+                                <span>
+                                    Lundi - Vendredi
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mailshop-row">
+                            <div class="mailshop-cell mailshop-size-100">
+                                <span>
+                                    08h00 - 17h00
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col copyright">mailshop SàRL © 2021</div>
                 </div>
             </div>
-        </footer>
-    </div>
+            <div class="mailshop-row" style="margin-bottom: 15px;">
+                <div class="mailshop-cell mailshop-size-100 item social">
+                    <a href="https://www.facebook.com/MAILSHOP.lu"><i class="fa fa-facebook"></i></a>
+                    <a href="https://lu.linkedin.com/in/mailshopsarl"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="mailshop-row">
+                <div class="mailshop-cell mailshop-size-100 item">
+                    <span>Mailshop Sàrl &copy;
+                    <script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="lib/jquery/jquery.min.js" type="text/javascript"></script>
