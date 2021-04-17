@@ -9,17 +9,10 @@
     background-repeat: no-repeat;
 }
 
-
-/*
-
-    SMARTPHONE with max width of 400 pixels
-
-*/
-@media screen and (max-width: 400px) {
-
-    #Printing_PageHeaderIcon {
-    }
-
-    .mainContent_header {
-    }
+#div_content_image_print {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
 }

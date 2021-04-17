@@ -1,7 +1,6 @@
 ﻿@import "globalVariables.css";
 
 
-
 #Contact_PageHeaderIcon {
     background: url("../images/icons/icon_contact.png");
     width: 142px;
@@ -53,18 +52,3 @@
         opacity: 0.9;
         color: var(--mailshop-logo-orange);
     }
-
-
-
-/*
-
-    SMARTPHONE with max width of 400 pixels
-
-*/
-@media screen and (max-width: 400px) {
-    #Printing_PageHeaderIcon {
-    }
-
-    .mainContent_header {
-    }
-}

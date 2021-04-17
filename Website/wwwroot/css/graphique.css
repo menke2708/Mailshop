@@ -9,17 +9,18 @@
     background-repeat: no-repeat;
 }
 
+#div_content_image_graphique {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
-/*
+#div_content_image_graphique_desktop {
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
-    SMARTPHONE with max width of 400 pixels
-
-*/
-@media screen and (max-width: 400px) {
-
-    #Printing_PageHeaderIcon {
-    }
-
-    .mainContent_header {
-    }
+#image_graphique_desktop{
+    height:350px;
+    width:100%;
 }
