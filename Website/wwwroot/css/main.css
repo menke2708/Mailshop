@@ -6,7 +6,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family:sans-serif;
-    font-size:12.5pt;
+    font-size:14pt;
 }
 
 body {
@@ -33,8 +33,8 @@ body {
 }
 
 .mainContent {
-    min-height: 600px;
-    padding: 1% 12%;
+    min-height: 650px;
+    padding: 2.5% 10%;
 }
 
 .mainContent_header{

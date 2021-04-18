@@ -1,25 +1,29 @@
 ﻿@import "globalVariables.css";
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and ( min-width:0px ) and (max-width: 688px) {
 
     #div_content_image_mailing {
         display: none;
     }
+
+    #div_content_image_mailing_dataflow {
+        display: none;
+    }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and ( min-width:993px ) and (max-width: 1280px) {
+
+    /* reduce padding when width of screen is lower than 1200px */
+    .mainContent {
+        padding: 2.5% 5%;
+    }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and ( min-width:1281px ) and (max-width: 1400px) {
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+    /* reduce padding when width of screen is lower than 1200px */
+    .mainContent {
+        padding: 2.5% 5%;
+    }
 }

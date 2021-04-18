@@ -1,37 +1,59 @@
 ﻿@import "globalVariables.css";
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and ( min-width:0px ) and (max-width: 688px) {
 
     [class*="mailshop-size-"] {
         width: 100%;
     }
 
     .mainContent_header {
-        justify-content:center;
+        justify-content: center;
     }
 
     .content_image {
-        display:none;
+        display: none;
+    }
+
+    /* reduce padding when width of screen is lower than 688px */
+    .mainContent {
+        padding: 5% 2.5%;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and ( min-width:689px ) and (max-width: 992px) {
+
+    [class*="mailshop-size-"] {
+        width: 100%;
+    }
+
+    .mainContent_header {
+        justify-content: center;
+    }
+
+    .content_image {
+        display: none;
+    }
+
+    /* reduce padding when width of screen is lower than 688px */
+    .mainContent {
+        padding: 5% 5%;
+    }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
+@media only screen and ( min-width:993px ) and (max-width: 1280px) {
+
+    /* reduce padding when width of screen is lower than 1200px */
+    .mainContent {
+        padding: 2.5% 5%;
+    }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-}
+@media only screen and ( min-width:1281px ) and (max-width: 1400px) {
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
+    /* reduce padding when width of screen is lower than 1200px */
+    .mainContent {
+        padding: 2.5% 5%;
+    }
 }

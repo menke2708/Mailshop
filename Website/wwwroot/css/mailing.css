@@ -12,5 +12,14 @@
 #div_content_image_mailing {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+}
+
+#div_content_image_mailing_dataflow {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+    position:relative;
+    margin-top:-50px;
 }
