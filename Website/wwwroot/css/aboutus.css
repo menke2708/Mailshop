@@ -2,7 +2,8 @@
 
 
 #AboutUs_PageHeaderIcon {
-    background: url("../images/logo/Env_Orange_450x250px.png");
+    /*background: url("../images/logo/Env_Orange_450x250px.png");*/
+    background: url("../images/logo/07_Env mailshop.png");
     width: 150px;
     height: 84px;
     background-size: contain;
@@ -22,16 +23,16 @@
 }
 
 #icon_SDK {
-    background: url("../images/icons/icon_SDK.png");
-    width: 100px;
-    height: 100px;
+    background: url("../images/icons/06_SDK.png");
+    width: 110px;
+    height: 110px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #icon_MadeInLux {
-    background: url("../images/icons/icon_MadeInLux.png");
-    width: 100px;
-    height: 100px;
+    background: url("../images/icons/05_MADE_IN_LUXEMBOURG.png");
+    width: 110px;
+    height: 110px;
     background-size: contain;
     background-repeat: no-repeat;
 }

@@ -6,11 +6,11 @@
 
     <title>Mailshop</title>
 
+    <link rel="icon" href="images/logo/icon_mailshop_browser_tab.ico">
+
     <link href="css/resetCSS.css" rel="stylesheet" />
 
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-    
 
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/layout.css" rel="stylesheet" />
@@ -30,8 +30,8 @@
         <nav id="mailshop_navigation" class="navbar navbar-expand-lg navbar-light">
             <div class="container">
 
-                <a class="navbar-brand" href="#">
-                    <img src="../../images/logo/mailshop_logo_withoutText.png" alt="" width="300" height="100" class="d-inline-block align-text-top" />
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/mailshop_logo_withoutText.png" alt="" width="300" height="100" class="d-inline-block align-text-top" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mailshop_navigation_links" aria-controls="mailshop_navigation_links" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,18 +69,21 @@
         <div class="mailshop-table">
             <div class="mailshop-row">
                 <div class="mailshop-cell mailshop-size-100 mainContent_header">
-                    <div id="Contact_PageHeaderIcon"></div>
-                    <h3 style=" letter-spacing: 5px; font-weight: 500;">Contact</h3>
+                    <img src="images/icons/icon_contact.png" height="150" width="185" />
+                    <h3 class="mainContent_header_title">Contact</h3>
                 </div>
             </div>
             <div class="mailshop-row">
                 <div class="mailshop-cell mailshop-size-100">
                     <div class="mailshop-table">
                         <div class="mailshop-row">
-                            <div class="mailshop-cell mailshop-size-60">
+                            <div class="mailshop-cell mailshop-size-55">
                                 <div id="contact_map">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10364.041538335505!2d5.9856768!3d49.5031979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9ac7b0c5d3a6c8e8!2sMailshop%20S%C3%A0rl!5e0!3m2!1sde!2slu!4v1617613190622!5m2!1sde!2slu" style="border:0; width:100%; height:100%" allowfullscreen="" loading="lazy"></iframe>
                                 </div>
+                            </div>
+                            <div class="mailshop-cell mailshop-size-5">
+
                             </div>
                             <div id="contact_details" class="mailshop-cell mailshop-size-40" style="padding:0 2%;">
 
@@ -91,12 +94,15 @@
                                             <!-- ADDRESS -->
                                             <div class="mailshop-table">
                                                 <div class="mailshop-row">
-                                                    <div class="mailshop-cell mailshop-size-20">
-                                                        <span class="fa-stack fa-2x shadow" style="    border: 1px solid;    border-radius: 50%;    width: 2em;    background-color: transparent;">
-                                                            <i class="fa fa-map-marker fa-stack-1x" aria-hidden="true" style="    color: #EB5B25;"></i>
-                                                        </span>
+                                                    <div class="mailshop-cell mailshop-size-30">
+                                                        <div id="contact_icon_map">
+
+                                                        </div>
+                                                        <!--<span class="fa-stack fa-2x shadow" style="    border: 1px solid;    border-radius: 50%;    width: 2em;    background-color: transparent;">
+                                                            <i class="fa fa-map-marker fa-stack-1x" aria-hidden="true" style=" color: #EB5B25;"></i>
+                                                        </span>-->
                                                     </div>
-                                                    <div class="mailshop-cell mailshop-size-80">
+                                                    <div class="mailshop-cell mailshop-size-70">
                                                         <a class="contact_link" title="Accéder à la page Google de Mailshop s.à.r.l" href="https://www.google.com/maps/place/Mailshop+S%C3%A0rl/@49.5031979,5.9856768,15z/data=!4m5!3m4!1s0x0:0x9ac7b0c5d3a6c8e8!8m2!3d49.5031979!4d5.9856768">
                                                             Mailshop s.à.r.l<br />
                                                             11, rue Léon Metz<br />
@@ -112,12 +118,14 @@
                                             <!-- CONTACT DETAILS -->
                                             <div class="mailshop-table">
                                                 <div class="mailshop-row">
-                                                    <div class="mailshop-cell mailshop-size-20">
-                                                        <span class="fa-stack fa-2x shadow" style="    border: 1px solid;    border-radius: 50%;    width: 2em;    background-color: transparent;">
-                                                            <i class="fa fa-address-book fa-stack-1x" aria-hidden="true" style="    color: #EB5B25;"></i>
-                                                        </span>
+                                                    <div class="mailshop-cell mailshop-size-30">
+                                                        <div id="contact_icon_addressbook">
+                                                            <!--<span class="fa-stack fa-2x shadow" style="    border: 1px solid;    border-radius: 50%;    width: 2em;    background-color: transparent;">
+            <i class="fa fa-address-book fa-stack-1x" aria-hidden="true" style="    color: #EB5B25;"></i>
+        </span>-->
+                                                        </div>
                                                     </div>
-                                                    <div class="mailshop-cell mailshop-size-80">
+                                                    <div class="mailshop-cell mailshop-size-70">
                                                         <div class="mailshop-table">
                                                             <div class="mailshop-row">
                                                                 <div class="mailshop-cell mailshop-size-100">
@@ -140,12 +148,15 @@
                                             <!-- WORKING HOURS -->
                                             <div class="mailshop-table">
                                                 <div class="mailshop-row">
-                                                    <div class="mailshop-cell mailshop-size-20">
-                                                        <span class="fa-stack fa-2x shadow" style="    border: 1px solid;    border-radius: 50%;    width: 2em;    background-color: transparent;">
+                                                    <div class="mailshop-cell mailshop-size-30">
+                                                        <div id="contact_icon_clock">
+
+                                                        </div>
+                                                        <!--<span class="fa-stack fa-2x shadow" style="    border: 1px solid;    border-radius: 50%;    width: 2em;    background-color: transparent;">
                                                             <i class="fas fa-clock fa-stack-1x" aria-hidden="true" style="    color: #EB5B25;"></i>
-                                                        </span>
+                                                        </span>-->
                                                     </div>
-                                                    <div class="mailshop-cell mailshop-size-80">
+                                                    <div class="mailshop-cell mailshop-size-70">
                                                         <div class="mailshop-table">
                                                             <div class="mailshop-row">
                                                                 <div class="mailshop-cell mailshop-size-100">
@@ -154,7 +165,7 @@
                                                             </div>
                                                             <div class="mailshop-row">
                                                                 <div class="mailshop-cell mailshop-size-100">
-                                                                    <span>8h00 - 17h00</span>
+                                                                    <span>8h00 - 12h00 & 13h00 - 17h00</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -243,7 +254,7 @@
                         <div class="mailshop-row">
                             <div class="mailshop-cell mailshop-size-100">
                                 <span>
-                                    08h00 - 17h00
+                                    08h00 - 12h00 & 13h00 - 17h00
                                 </span>
                             </div>
                         </div>

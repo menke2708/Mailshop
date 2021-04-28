@@ -35,10 +35,10 @@
     }
 
 .contact_social > a {
-    font-size: 22px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -51,4 +51,29 @@
     .contact_social > a:hover {
         opacity: 0.9;
         color: var(--mailshop-logo-orange);
+        box-shadow: 0 0 0 1px var(--mailshop-logo-orange);
     }
+
+#contact_icon_map {
+    background: url("../images/icons/icon_NousTrouver_new.png");
+    width: 87px;
+    height: 87px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#contact_icon_addressbook {
+    background: url("../images/icons/AdressBook.png");
+    width: 87px;
+    height: 87px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#contact_icon_clock {
+    background: url("../images/icons/Hours.png");
+    width: 87px;
+    height: 87px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

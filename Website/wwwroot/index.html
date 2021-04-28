@@ -6,18 +6,20 @@
 
     <title>Mailshop</title>
 
+    <link rel="icon" href="images/logo/icon_mailshop_browser_tab.ico">
+
     <link href="css/resetCSS.css" rel="stylesheet" />
 
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    
-
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/layout.css" rel="stylesheet" />
     <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
     <link href="css/responsive_main.css" rel="stylesheet" />
     <link href="css/responsive_navigation.css" rel="stylesheet" />
+    <link href="css/responsive_slider.css" rel="stylesheet" />
 
     <script src="https://kit.fontawesome.com/06b03d6d9e.js" crossorigin="anonymous"></script>
 </head>
@@ -28,8 +30,8 @@
         <nav id="mailshop_navigation" class="navbar navbar-expand-lg navbar-light">
             <div class="container">
 
-                <a class="navbar-brand" href="#">
-                    <img src="../../images/logo/mailshop_logo_withoutText.png" alt="" width="300" height="100" class="d-inline-block align-text-top" />
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/mailshop_logo_withoutText.png" alt="" width="300" height="100" class="d-inline-block align-text-top" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mailshop_navigation_links" aria-controls="mailshop_navigation_links" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,61 +64,55 @@
         </nav>
     </header>
 
-    <main>
-        <div class="container col-12">
-            <div id="mainPage_slideShow" class="row">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="50000">
-                            <div class="d-block w-100">
-                                Hello 1
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="50000">
-                            <div class="d-block w-100">
-                                Hello 2
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="50000">
-                            <div class="d-block w-100">
-                                Hello 3
-                            </div>
-                        </div>
+    <main class="mainContent">
+        <div class="mailshop-table">
+            <div class="mailshop-row">
+                <div class="mailshop-cell mailshop-size-100">
+                    <div id="mainPage_slideShow" class="fling-minislide">
+                        <img src="images/slideshow/mailshop_slider_3.jpg" alt="Slide 3" />
+
+                        <img src="images/slideshow/mailshop_slider_2.jpg" alt="Slide 2" />
+
+                        <img src="images/slideshow/slideshow_1.png" alt="Slide 1" />
                     </div>
                 </div>
             </div>
-            <div class="row" id="mainPage_servicesIcons">
-                <div class="col-3" style="display:flex;flex-direction:column;align-items:center;">
-                    <img src="images/icons/icon_mailing.png" height="125" width="165" />
-                    <div>
-                        <h6 class="mainPage_servicestitle">Mailing</h6>
-                    </div>
+            <div class="mailshop-row" id="mainPage_servicesIcons">
+                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                    <a href="mailing.html">
+                        <img class="mainContent_service_icon" src="images/icons/icon_mailing.png" height="150" width="185" />
+                    </a>
+                    <a href="mailing.html" class="serviceLink">
+                        Mailing
+                    </a>
                 </div>
-                <div class="col-3" style="display:flex;flex-direction:column;align-items:center;">
-                    <img src="images/icons/icon_graphics.png" height="125" width="165" />
-                    <div>
-                        <h6 class="mainPage_servicestitle">Graphisme</h6>
-                    </div>
+                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                    <a href="graphique.html">
+                        <img class="mainContent_service_icon" src="images/icons/icon_graphics.png" height="150" width="185" />
+                    </a>
+                    <a href="graphique.html" class="serviceLink">
+                        Graphisme
+                    </a>
                 </div>
-                <div class="col-3" style="display:flex;flex-direction:column;align-items:center;">
-                    <img src="images/icons/icon_print.png" height="125" width="165" />
-                    <div>
-                        <h6 class="mainPage_servicestitle">Print</h6>
-                    </div>
+                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                    <a href="printing.html">
+                        <img class="mainContent_service_icon" src="images/icons/icon_print.png" height="150" width="185" />
+                    </a>
+                    <a href="printing.html" class="serviceLink">
+                        Print
+                    </a>
                 </div>
-                <div class="col-3" style="display:flex;flex-direction:column;align-items:center;">
-                    <img src="images/icons/icon_cards.png" height="125" width="165" />
-                    <div>
-                        <h6 class="mainPage_servicestitle">Cartes</h6>
-                    </div>
+                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                    <a href="cartes.html">
+                        <img class="mainContent_service_icon" src="images/icons/icon_cards.png" height="150" width="185" />
+                    </a>
+                    <a href="cartes.html" class="serviceLink">
+                        Cartes
+                    </a>
                 </div>
             </div>
         </div>
+   
     </main>
 
     <footer class="footer-dark">
@@ -178,7 +174,7 @@
                         <div class="mailshop-row">
                             <div class="mailshop-cell mailshop-size-100">
                                 <span>
-                                    08h00 - 17h00
+                                    08h00 - 12h00 & 13h00 - 17h00
                                 </span>
                             </div>
                         </div>
