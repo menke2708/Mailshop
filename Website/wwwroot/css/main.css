@@ -41,7 +41,8 @@ body {
 
 .mainContent_header_title {
     margin-bottom: 0;
-    letter-spacing: 5px;
+    margin-left: 20px;
+    letter-spacing: 7px;
     font-weight: 500;
     color: var(--mailshop-grey-dark-logo);
 }

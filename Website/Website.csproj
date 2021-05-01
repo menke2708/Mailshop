@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\images\slideshow\" />
     <Folder Include="wwwroot\lib\bootstrap-icons\" />
   </ItemGroup>
 

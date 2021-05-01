@@ -55,25 +55,25 @@
     }
 
 #contact_icon_map {
-    background: url("../images/icons/icon_NousTrouver_new.png");
-    width: 87px;
-    height: 87px;
+    background: url("../images/icons/Icon_Marker_cropped.png");
+    width: 100px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #contact_icon_addressbook {
-    background: url("../images/icons/AdressBook.png");
-    width: 87px;
-    height: 87px;
+    background: url("../images/icons/Icon_AddressBook_cropped.png");
+    width: 100px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #contact_icon_clock {
-    background: url("../images/icons/Hours.png");
-    width: 87px;
-    height: 87px;
+    background: url("../images/icons/Icon_Clock_cropped.png");
+    width: 100px;
+    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
 }
