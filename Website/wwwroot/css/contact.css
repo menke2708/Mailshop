@@ -22,13 +22,18 @@
     height: 100%;
 }
 
+.contact_socialmedia_row{
+    height:80px;
+}
 
 .contact_link {
+    color: #4B5256;
     color: var(--mailshop-grey-dark-logo);
     text-decoration: underline;
 }
 
     .contact_link:hover {
+        color: #EB5B25; 
         color: var(--mailshop-logo-orange);
         text-decoration: none;
         cursor: pointer;
@@ -42,15 +47,19 @@
     display: inline-block;
     text-align: center;
     border-radius: 50%;
+    box-shadow: 0 0 0 1px #4B5256;
     box-shadow: 0 0 0 1px var(--mailshop-footer-grey);
     margin: 0 10px;
+    color: #4B5256;
     color: var(--mailshop-footer-grey);
     opacity: 0.75;
 }
 
     .contact_social > a:hover {
         opacity: 0.9;
+        color: #EB5B25;
         color: var(--mailshop-logo-orange);
+        box-shadow: 0 0 0 1px #EB5B25;
         box-shadow: 0 0 0 1px var(--mailshop-logo-orange);
     }
 

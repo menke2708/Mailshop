@@ -7,7 +7,6 @@
         display: flex;
         display: -moz-box;
         display: -ms-flexbox;
-        display: -moz-flex;
         display: -webkit-flex;
         flex-direction: column;  
         flex-flow: column wrap;
@@ -20,7 +19,6 @@
         display: flex;  
         display: -moz-box;
         display: -ms-flexbox;
-        display: -moz-flex;
         display: -webkit-flex;
         flex-direction: row;
         flex-flow: row wrap;

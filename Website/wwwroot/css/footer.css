@@ -1,8 +1,10 @@
 ﻿@import "globalVariables.css";
 
+
 .footer-dark {
     padding: 25px 0 5px 0;
     color: #f0f9ff;
+    background-color: #4B5256;
     background-color: var(--mailshop-footer-grey);
     font-size: 13pt;
     text-align: center;
@@ -27,13 +29,21 @@
 
 .footer-dark a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline;
     opacity: 0.6;
 }
 
 .footer-dark a:hover {
     opacity: 0.8;
+    color: #EB5B25; 
     color: var(--mailshop-logo-orange);
+    text-decoration: none;
+}
+
+.footer-dark .footer_details {
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
 }
 
 @media (max-width:767px) {
@@ -85,7 +95,9 @@
 
     .footer-dark .item.social > a:hover {
         opacity: 0.9;
+        color: #EB5B25;
         color: var(--mailshop-logo-orange);
+        box-shadow: 0 0 0 1px #EB5B25;
         box-shadow: 0 0 0 1px var(--mailshop-logo-orange);
     }
 

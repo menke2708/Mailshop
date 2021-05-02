@@ -7,7 +7,7 @@
     }
 
     .navbar .nav-item:hover .nav-link {
-        color: var(--mailshop-grey-dark-logo);
+        color: #4B5256; color: var(--mailshop-grey-dark-logo);
     }
 
     .navbar .nav-item:hover .dropdown-menu {

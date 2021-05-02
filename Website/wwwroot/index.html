@@ -10,6 +10,8 @@
 
     <link href="css/resetCSS.css" rel="stylesheet" />
 
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/layout.css" rel="stylesheet" />
     <link href="css/navigation.css" rel="stylesheet" />
@@ -19,15 +21,12 @@
     <link href="css/responsive_navigation.css" rel="stylesheet" />
     <link href="css/responsive_slider.css" rel="stylesheet" />
 
-    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-
     <script src="https://kit.fontawesome.com/06b03d6d9e.js" crossorigin="anonymous"></script>
     <script src="lib/jquery/jquery.min.js" type="text/javascript"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
-    <!--<div id="background_image"></div>-->
+
     <!-- NAVIGATION / HEADER -->
     <header class="shadow">
         <nav id="mailshop_navigation" class="navbar navbar-expand-lg navbar-light">
@@ -71,36 +70,80 @@
         <div class="mailshop-table">
             <div class="mailshop-row">
                 <div id="mainPage_slideShow" class="mailshop-cell mailshop-size-100">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height:100%;">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner"  style="height:100%;">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="images/slideshow/Accueil_1000x500px_01.jpg" alt="First slide">
+                    <ul class="slides">
+                        <input type="radio" name="radio-btn" id="img-1" checked />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/slideshow/Accueil_1500x650px_01.jpg" />
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slideshow/Accueil_1000x500px_02.jpg" alt="Second slide">
+                            <div class="nav-slider">
+                                <label class="prev" for="img-6"><i class="fa fa-chevron-left"></i></label>
+                                <label class="next" for="img-2"><i class="fa fa-chevron-right"></i></label>
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="images/slideshow/Accueil_1000x500px_03.jpg" alt="Third slide">
+                        </li>                        
+                        <input type="radio" name="radio-btn" id="img-2" />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/slideshow/Accueil_1500x650px_02.jpg" />
                             </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+                            <div class="nav-slider">
+                                <label class="prev" for="img-1">&lt;</label>
+                                <label class="next" for="img-3">&gt;</label>
+                            </div>
+                        </li>                     
+                        <input type="radio" name="radio-btn" id="img-3" />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/slideshow/Accueil_1500x650px_03.jpg" />
+                            </div>
+                            <div class="nav-slider">
+                                <label class="prev" for="img-2">&lt;</label>
+                                <label class="next" for="img-4">&gt;</label>
+                            </div>
+                        </li>                     
+                        <input type="radio" name="radio-btn" id="img-4" />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/slideshow/Accueil_1500x650px_04.jpg" />
+                            </div>
+                            <div class="nav-slider">
+                                <label class="prev" for="img-3">&lt;</label>
+                                <label class="next" for="img-5">&gt;</label>
+                            </div>
+                        </li>                     
+                        <input type="radio" name="radio-btn" id="img-5" />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/slideshow/Accueil_1500x650px_05.jpg" />
+                            </div>
+                            <div class="nav-slider">
+                                <label class="prev" for="img-4">&lt;</label>
+                                <label class="next" for="img-6">&gt;</label>
+                            </div>
+                        </li>                  
+                        <input type="radio" name="radio-btn" id="img-6" />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/slideshow/Accueil_1500x650px_06.jpg" />
+                            </div>
+                            <div class="nav-slider">
+                                <label class="prev" for="img-5">&lt;</label>
+                                <label class="next" for="img-1">&gt;</label>
+                            </div>
+                        </li>
+                        <li class="nav-slider-dots">
+                            <label for="img-1" class="nav-slider-dot" id="img-dot-1"></label>
+                            <label for="img-2" class="nav-slider-dot" id="img-dot-2"></label>
+                            <label for="img-3" class="nav-slider-dot" id="img-dot-3"></label>
+                            <label for="img-4" class="nav-slider-dot" id="img-dot-4"></label>
+                            <label for="img-5" class="nav-slider-dot" id="img-dot-5"></label>
+                            <label for="img-6" class="nav-slider-dot" id="img-dot-6"></label>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="mailshop-row" id="mainPage_servicesIcons">
-                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                <div class="mailshop-cell mailshop-size-15" style="display:flex;flex-direction:column;align-items:center;">
                     <a href="printing.html">
                         <img class="mainContent_service_icon" src="images/icons/icon_print.png" height="150" width="185" />
                     </a>
@@ -108,7 +151,7 @@
                         Print
                     </a>
                 </div>
-                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                <div class="mailshop-cell mailshop-size-15" style="display:flex;flex-direction:column;align-items:center;">
                     <a href="mailing.html">
                         <img class="mainContent_service_icon" src="images/icons/icon_mailing.png" height="150" width="185" />
                     </a>
@@ -116,7 +159,7 @@
                         Mailing
                     </a>
                 </div>
-                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                <div class="mailshop-cell mailshop-size-15" style="display:flex;flex-direction:column;align-items:center;">
                     <a href="graphique.html">
                         <img class="mainContent_service_icon" src="images/icons/icon_graphics.png" height="150" width="185" />
                     </a>
@@ -124,7 +167,7 @@
                         Graphisme
                     </a>
                 </div>
-                <div class="mailshop-cell mailshop-size-25" style="display:flex;flex-direction:column;align-items:center;">
+                <div class="mailshop-cell mailshop-size-15" style="display:flex;flex-direction:column;align-items:center;">
                     <a href="cartes.html">
                         <img class="mainContent_service_icon" src="images/icons/icon_cards.png" height="150" width="185" />
                     </a>
@@ -134,12 +177,12 @@
                 </div>
             </div>
         </div>
-   
+
     </main>
 
     <footer class="footer-dark">
         <div class="mailshop-table">
-            <div class="mailshop-row" style="justify-content:space-evenly; margin-bottom: 15px;">
+            <div class="mailshop-row footer_details">
                 <div class="mailshop-cell mailshop-size-20">
                     <div class="mailshop-table">
                         <div class="mailshop-row">
@@ -223,4 +266,15 @@
 
 
 </body>
+
 </html>
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function () {
+        document.getElementById('img-' + counter).checked = true;
+        counter++;
+        if (counter > 6) {
+            counter = 1;
+        }
+    }, 5000);
+</script>

@@ -1,91 +1,126 @@
 ﻿@import "globalVariables.css";
 
-#mainPage_slideShow{
+#mainPage_slideShow {
     height:750px;
+    width:100%;
 }
 
-#mainPage_slideShow img {
+.slides {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide-container {
+    display: block;
+}
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: all .5s ease-in;
+}
+
+.slide img {
     width: 100%;
     height: 100%;
 }
 
-/*ol, ul {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
+.nav-slider label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
     cursor: pointer;
-    background-color: #000\9;
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #fff;
-    border-radius: 10px;
-}
-.carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #fff;
-}*/
-
-/*.fling-minislide {*/
-    /*    width: 350px;
-    height: 300px;*/
-    /*overflow: hidden;
-    position: relative;
+    transition: opacity .2s;
+    color: #EB5B25;
+    color: var(--mailshop-logo-orange);
+    font-size: 100pt;
+    text-align: center;
+    line-height: 650px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
 }
 
-    .fling-minislide img {
-        position: absolute;
-        animation: fling-minislide 35s infinite;
-        opacity: 0;
-        width: 100%;
-        height: auto;
-    }
-
-@keyframes fling-minislide {
-    25% {
-        opacity: 1;
-    }
-
-    40% {
-        opacity: 0;
-    }
+.slide:hover + .nav-slider label {
+    opacity: 0.5;
 }
 
-.fling-minislide img:nth-child(6) {
-    animation-delay: 0s;
+.nav-slider label:hover {
+    opacity: 1;
 }
 
-.fling-minislide img:nth-child(5) {
-    animation-delay: 5s;
+.nav-slider .next {
+    right: 0;
 }
 
-.fling-minislide img:nth-child(4) {
-    animation-delay: 10s;
+input:checked + .slide-container .slide {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in;
 }
 
-.fling-minislide img:nth-child(3) {
-    animation-delay: 15s;
+input:checked + .slide-container .nav-slider label {
+    display: block;
 }
 
-.fling-minislide img:nth-child(2) {
-    animation-delay: 20s;
-}
-
-.fling-minislide img:nth-child(1) {
-    animation-delay: 25s;
-}
-
-.fling-minislide {
+.nav-slider-dots {
     width: 100%;
-    height: 0px;*/
-    /*padding-bottom: 50%;*/
-    /*overflow: hidden;
-    position: relative;
-}*/
+    bottom: 9px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+    .nav-slider-dots .nav-slider-dot {
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        position: relative;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: #4B5256;
+        background-color: var(--mailshop-grey-dark-logo);
+    }
+
+        .nav-slider-dots .nav-slider-dot:hover {
+            cursor:pointer;
+            background: #EB5B25;
+            background: var(--mailshop-logo-orange);
+        }
+
+input#img-1:checked ~ .nav-slider-dots label#img-dot-1,
+input#img-2:checked ~ .nav-slider-dots label#img-dot-2,
+input#img-3:checked ~ .nav-slider-dots label#img-dot-3,
+input#img-4:checked ~ .nav-slider-dots label#img-dot-4,
+input#img-5:checked ~ .nav-slider-dots label#img-dot-5,
+input#img-6:checked ~ .nav-slider-dots label#img-dot-6 {
+    background: #EB5B25;
+    background: var(--mailshop-logo-orange);
+}

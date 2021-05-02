@@ -16,17 +16,16 @@
     }
 
     #image_graphique_desktop {
-        height: 315px!important;
+        height: 300px!important;
+        width: 350px!important;
     }
-
-
 }
 
 
 @media only screen and ( min-width:689px ) and (max-width: 992px) {
 
     #image_graphique_desktop {
-        width: 450px;
+        width: 425px;
     }
 
     #div_content_image_graphique_desktop {
