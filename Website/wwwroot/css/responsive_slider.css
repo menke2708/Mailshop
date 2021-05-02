@@ -13,11 +13,19 @@
     #mainPage_slideShow {
         height: 400px;
     }
+
+    .nav-slider label{
+        line-height:450px;
+    }
 }
 
 @media only screen and ( min-width:993px ) and (max-width: 1280px) {
     #mainPage_slideShow {
         height: 500px;
+    }
+
+    .nav-slider label {
+        line-height: 550px;
     }
 }
 
